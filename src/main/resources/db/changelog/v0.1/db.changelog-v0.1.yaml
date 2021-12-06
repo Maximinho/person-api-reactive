@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - include:
+      file: 2021-11-30--01-initial-schema.yaml
+      relativeToChangelogFile: true

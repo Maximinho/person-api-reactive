@@ -1,0 +1,9 @@
+spring:
+  liquibase:
+    url: jdbc:postgresql://${DATABASE_URL:localhost:5432/postgres}
+    user: ${DATABASE_USER}
+    password: ${DATABASE_PASSWORD}
+  r2dbc:
+    url: r2dbc:postgresql://${DATABASE_URL:localhost:5432/postgres}
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASSWORD}
